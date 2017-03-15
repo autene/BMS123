@@ -829,7 +829,7 @@
             this.tabcontrol.Location = new System.Drawing.Point(5, 163);
             this.tabcontrol.Name = "tabcontrol";
             this.tabcontrol.SelectedIndex = 0;
-            this.tabcontrol.Size = new System.Drawing.Size(1266, 576);
+            this.tabcontrol.Size = new System.Drawing.Size(1266, 578);
             this.tabcontrol.TabIndex = 1;
             this.tabcontrol.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabcontrol_DrawItem);
             this.tabcontrol.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tabcontrol_MouseDown);
@@ -838,7 +838,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1276, 741);
+            this.ClientSize = new System.Drawing.Size(1276, 743);
             this.Controls.Add(this.tabcontrol);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "FrmMain";
