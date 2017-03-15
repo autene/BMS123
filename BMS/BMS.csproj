@@ -108,6 +108,12 @@
     <Compile Include="FrmEvent.Designer.cs">
       <DependentUpon>FrmEvent.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEventItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEventItem.Designer.cs">
+      <DependentUpon>FrmEventItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmFloor.cs">
       <SubType>Form</SubType>
     </Compile>
