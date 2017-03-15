@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{648089F9-F198-44B2-9F5F-F47CB46A11E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BMS</RootNamespace>
+    <AssemblyName>BMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Instrumentation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.SuperGrid.Design, Version=11.0.0.0, Culture=neutral, PublicKeyToken=1fea3f5d8d482bff, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.TreeGX, Version=11.0.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="FrmApartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmApartment.Designer.cs">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlock.Designer.cs">
+      <DependentUpon>FrmBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuilding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuilding.Designer.cs">
+      <DependentUpon>FrmBuilding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCustomer.Designer.cs">
+      <DependentUpon>FrmAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeHost.Designer.cs">
+      <DependentUpon>FrmChangeHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.cs">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetailLiving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetailLiving.Designer.cs">
+      <DependentUpon>FrmDetailLiving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmElevator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmElevator.Designer.cs">
+      <DependentUpon>FrmElevator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvent.Designer.cs">
+      <DependentUpon>FrmEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFloor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFloor.Designer.cs">
+      <DependentUpon>FrmFloor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItem.Designer.cs">
+      <DependentUpon>FrmItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemName.Designer.cs">
+      <DependentUpon>FrmItemName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSection.Designer.cs">
+      <DependentUpon>FrmSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransport.Designer.cs">
+      <DependentUpon>FrmTransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmApartment.resx">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlock.resx">
+      <DependentUpon>FrmBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuilding.resx">
+      <DependentUpon>FrmBuilding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCustomer.resx">
+      <DependentUpon>FrmAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeHost.resx">
+      <DependentUpon>FrmChangeHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetailLiving.resx">
+      <DependentUpon>FrmDetailLiving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmElevator.resx">
+      <DependentUpon>FrmElevator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvent.resx">
+      <DependentUpon>FrmEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFloor.resx">
+      <DependentUpon>FrmFloor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItem.resx">
+      <DependentUpon>FrmItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemName.resx">
+      <DependentUpon>FrmItemName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSection.resx">
+      <DependentUpon>FrmSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransport.resx">
+      <DependentUpon>FrmTransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DevComponents\DotNetBar\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
