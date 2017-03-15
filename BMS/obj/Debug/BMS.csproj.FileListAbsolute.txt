@@ -66,3 +66,6 @@ F:\Study\Subject\Thuc Tap\Project\Git\BMS\BMS\obj\Debug\BMS.FrmItemName.resource
 F:\Study\Subject\Thuc Tap\Project\Git Tree\BMS\bin\Debug\BMS.exe.config
 F:\Study\Subject\Thuc Tap\Project\Git Tree\BMS\obj\Debug\BMS.exe
 F:\Study\Subject\Thuc Tap\Project\Git Tree\BMS\obj\Debug\BMS.pdb
+C:\Users\Aspire\Documents\BMS123\BMS\bin\Debug\BMS.exe.config
+C:\Users\Aspire\Documents\BMS123\BMS\obj\Debug\BMS.exe
+C:\Users\Aspire\Documents\BMS123\BMS\obj\Debug\BMS.pdb
