@@ -138,6 +138,18 @@
     <Compile Include="FrmSection.Designer.cs">
       <DependentUpon>FrmSection.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest1.Designer.cs">
+      <DependentUpon>FrmTest1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTransport.cs">
       <SubType>Form</SubType>
     </Compile>

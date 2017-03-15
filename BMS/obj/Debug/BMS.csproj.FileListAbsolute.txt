@@ -63,3 +63,6 @@ F:\Study\Subject\Thuc Tap\Project\Git\BMS\BMS\obj\Debug\BMS.FrmElevator.resource
 F:\Study\Subject\Thuc Tap\Project\Git\BMS\BMS\obj\Debug\BMS.FrmTransport.resources
 F:\Study\Subject\Thuc Tap\Project\Git\BMS\BMS\obj\Debug\BMS.FrmItem.resources
 F:\Study\Subject\Thuc Tap\Project\Git\BMS\BMS\obj\Debug\BMS.FrmItemName.resources
+D:\BMS_SourceTree\BMS\bin\Debug\BMS.exe.config
+D:\BMS_SourceTree\BMS\obj\Debug\BMS.exe
+D:\BMS_SourceTree\BMS\obj\Debug\BMS.pdb
